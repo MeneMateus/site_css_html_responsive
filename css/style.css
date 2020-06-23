@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*PAGE STYLE */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0,0,0, 0.5);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 20px 10px 20px;
+
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+.cabecalho {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+/* home */
+
+.phonemusic{
+    width: 450px;
+}
+
+.sectionmain {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong {
+    color: #f1a230;
+
+}
+
+.divmusic {
+    display: flex;
+}
+
+.musicbox {
+    width: 450px;
+}
+
+.musicboximagem {
+    width: 450px;
+}
+/* About CSS */
+
+.imagem-janedoe {
+    background-color: gray;
+    display: block;
+}
+
+#subtitulo {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#comentarios {
+    text-align: center;
+}
+
+.imagemjanedoe {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* Contato CSS */
+
+.sectionform {
+    margin-top: 10%;
+}
+
+.contatotitulo {
+    text-size-adjust: 34px;
+}
+
+.maincontato {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border-bottom: dashed gray 1px;
+}
+
+.danielku {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border-bottom: dashed gray 1px;
+}
+
+.labelwix {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border-bottom: dashed gray 1px;
+}
+
+.thatgirl {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 900px;
+}
+
+
+/* contact CSS */
+
+.divprincipal {
+    display: flex;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario {
+    width: 450px;
+    ;
+}
+
+.mensagemtamanho {
+    width: 400px;
+}
+
+.nometamanho {
+    width: 400px;
+}
+
+.emailtamanho {
+    width: 400px;
+}
+
+/* Music CSS */
+
+.musicsection {
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+}
+
+@media (max-width: 460px){
+    body {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sectionform {
+        margin-top: 30%;
+    }
+    .googlemaps {
+        width: 40vh;
+    }
+    .divprincipal {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sectionmain {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divmusic {
+        display: flex;
+        flex-direction: column;
+    }
+    .phonemusic{
+        width: 40vh;
+    }
+    .imagemjanedoe {
+        text-align: center;
+        padding-bottom: 60px;
+        width: 50vw;
+    }
+    .musicbox {
+        width: 40vh;
+    }
+    .musicboximagem {
+        width: 40vh;
+    }
+    #subtitulo {
+        margin-top: 50%;
+    }
+    .formulario {
+        width: 40vh;
+        ;
+    }
+    
+    .mensagemtamanho {
+        width: 40vh;
+    }
+    
+    .nometamanho {
+        width: 40vh;
+    }
+    
+    .emailtamanho {
+        width: 40vh;
+    }
+
+    .maincontato {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vh;
+        border-bottom: dashed gray 1px;
+    }
+    
+    .danielku {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vh;
+        border-bottom: dashed gray 1px;
+    }
+    
+    .labelwix {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40vh;
+        border-bottom: dashed gray 1px;
+    }
+    
+    .thatgirl {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        width: 40vh;
+    }
+    .musicvideo {
+        width: 55vh;
+    }
+    .musicsection {
+        width: 40vh;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .imagenjanedoe1 {
+        width: 45vh;
+    }
+}
